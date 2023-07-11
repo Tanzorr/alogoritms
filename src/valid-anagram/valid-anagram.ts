@@ -4,6 +4,7 @@
 */
 
 export function validAnagram(firstStr: string, secondStr: string): boolean {
+
     if (firstStr.length !== secondStr.length) {
         return false;
     }
